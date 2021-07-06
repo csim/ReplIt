@@ -26,7 +26,7 @@ public class Program
         var us = new CultureInfo("en-US");
         Console.WriteLine(us.NumberFormat.CurrencyDecimalSeparator);
 
-        DateTime(1, 1, 2020).ToString("Mddyy").Print();
+        Console.WriteLine(new DateTime(2020, 1, 25).ToString("Mddyy"));
 
 
         //Console.WriteLine(new CultureInfo("en-GB").NumberFormat.CurrencySymbol);
